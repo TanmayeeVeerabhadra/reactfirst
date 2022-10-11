@@ -4,18 +4,27 @@ const Sidebar = () => {
   return (
     <div className='aside'>
         <div className="menu">
-          <ul>
+          <ul >
             <li>
-              <a href="#home">HOME</a>
+              <a href="#home"><button>
+                HOME</button></a>
             </li>
             <li>
-              <a href="#about">ABOUT</a>
+              <a href="#about"><button>ABOUT</button></a>
             </li>
             <li>
-              <a href="#work">PORTFOLIO</a>
+              <a href="#work"><button>PORTFOLIO</button></a>
             </li>
             <li>
-              <a href="#clients">CONTACT</a>
+              <a href="#clients"><button>CONTACT</button></a>
+            </li>
+            <li>
+              <a href="#upload"><button>UPLOAD</button></a>
+              <div id='upload'></div>
+            </li>
+            <li>
+              <a href="#download"><button>DOWNLOAD</button></a>
+              <div id='download'></div>
             </li>
           </ul>
       </div>
