@@ -28,15 +28,15 @@
 }
 
 .footer {
-    position:absolute;
     bottom: 0;
     left: 0;
     right: 0;
     background: #111;
-    height: auto;
-    width: 100vw;
     padding-top: 0px;
     color: #fff;
+    position:fixed;
+    height:50px;
+    padding-bottom: 75px;
 }
 
 .footer-content {
@@ -48,37 +48,34 @@
 }
 
 .footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
+    max-width: 200px;
+    margin: 5px auto;
+    line-height: 10px;
     font-size: 14px;
     color: #cacdd2;
 }
 
 .footer-content h3 {
-    font-size: 2.0rem;
-    font-weight: 500;
+    font-size: 1.5rem;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 0.5rem;
 }
 
 .footer-bottom p {
     float: left;
-    font-size: 14px;
-    word-spacing: 2px;
+    font-size: 1px;
+    word-spacing: 0px;
     text-transform: capitalize;
 }
 
 .footer-bottom p a {
     color: #44bae8;
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: none;
 }
 
 .footer-bottom span {
     text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
 }
 
 .nav-menu {
@@ -104,31 +101,43 @@
 }
 
 .article {
-    padding: 0 15px;
-    width: 900px;
-    max-width: 60%;
     background: transparent !important;
-    margin: 0 15px 0 0;
-  }
+    text-align: left;
+    position: relative;
+    overflow-y:scroll;
+    height:380px;
+}
+.article font{
+    color:darkslategrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline;
+    padding-left: 20px;
+    
+}
 .article h1 {
     margin-top: 0;
   }
   
 .aside {
-    top: 45px;
+    top: 0px;
+    height: 280px;
     background: rgba(0, 0, 0, 0.07);
-    padding: 30px 10px;
-    max-width: 20%;
+    padding: 110px 30px;
+    max-width: 100%;
     overflow: auto;
-    z-index: 1;
-  }
+    overflow-x:hidden;
+    overflow-y:hidden;
+    float:right;
+    margin-right: 2%;
+    text-align-last: left;
+}
 .aside h3 {
-    margin: 0;
+    margin: 100;
   }
 .aside svg {
     width: 100px;
     max-width: 100%;
-    display: block;
+    display:contents;
     margin: 0 auto;
   }
 .aside .infos-auteur h2 {
@@ -137,10 +146,35 @@
   }
 .aside .infos-auteur span {
     display: block;
-    padding: 0 2px 5px 2px;
   }
   
 .article,
   aside {
     float: left;
   }
+.inc-pic{
+    size: 50px;
+    width:710px;
+    height:200px;
+    overflow: auto;
+}
+.article p{
+    padding-left: 10px;
+}
+.inc-pic1{
+    size: 50px;
+    border: 1px solid black;
+    width:500px;
+    height:300px;
+    overflow:hidden;
+}
+.inc-pic2{
+    size: 50px;
+    border: 1px solid black;
+    width:500px;
+    height:200px;
+    overflow:hidden;
+}
+.aside menu{
+    text-align: left;
+}
