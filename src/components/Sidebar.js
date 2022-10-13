@@ -1,12 +1,12 @@
 import React from 'react'
-
+import Home from '../pages/home';
 const Sidebar = () => {
   return (
     <div className='aside'>
         <div className="menu">
           <ul >
             <li>
-              <a href="#home"><button>
+              <a href="#home" target="_blank"><button onClick={Home}>
                 HOME</button></a>
             </li>
             <li>
