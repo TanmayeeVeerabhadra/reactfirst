@@ -1,47 +1,6 @@
-// import './App.css';
-// import DigiClock from './components/DigiClock';
-// import ViewItems from './components/ViewItems-useState';
-// import AxiosDemo from './components/AxiosDemo'
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <AxiosDemo/>
-//     </div>
-//   );
-// }
-
-// export default App;
-// import "./styles.css";
-// import React from 'react';
-// import BlogContextDemo from './components/BlogContextDemo'
-
-// const blogInfo = {
-//   React: {
-//     post: "Learn useContext Hooks",
-//     author: "Varun K"
-//   },
-//   NodeJS: {
-//     post: "Node Commands",
-//     author: "Veena M"
-//   }
-// };
-
-// export const BlogContext  = React.createContext(blogInfo);
-
-// export default function App() {
-//   return (
-//     <div className="App">
-//       <div>
-//       <h1>Hello KP</h1>
-//       <BlogContext.Provider value={blogInfo}>
-//            <BlogContextDemo />
-//       </BlogContext.Provider>
-//       </div>
-//     </div>
-//   );
-// }
 import React, {useState} from 'react';
+import './styles.css';
+
 function App() {
 	const [height,setHeight] = useState(0);
   const [weight, setWeight] = useState(0);
@@ -121,4 +80,3 @@ function App() {
   }
 
 export default App;
-
