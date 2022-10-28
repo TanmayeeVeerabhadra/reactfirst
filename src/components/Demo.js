@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export const Demo = () => {
-    const [count,setCount]=useState("a");
+    const [count,setCount]=useState(" ");
 
     // const handleClick=()=>{
     //     setCount(count="a" + count);
